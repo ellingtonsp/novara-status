@@ -1,0 +1,42 @@
+# Upptime Configuration
+# https://upptime.js.org/docs/configuration
+
+owner: ellingtonsp
+repo: novara-status
+
+sites:
+  - name: Production API
+    url: https://api.novarafertility.com/api/health-check
+    expectedStatusCodes:
+      - 200
+
+  - name: Staging API
+    url: https://staging-api.novarafertility.com/api/health-check
+    expectedStatusCodes:
+      - 200
+
+  - name: Frontend (Vercel)
+    url: https://novarafertility.com
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: status.novarafertility.com
+  name: Novara Status
+  theme: dark
+  introTitle: "Novara Service Status"
+  introMessage: "Real-time uptime and incident history for Novara services."
+
+notifications:
+  - type: telegram
+    token: $TELEGRAM_BOT_TOKEN
+    chat: "7712114778"
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
