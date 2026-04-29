@@ -22,17 +22,17 @@
     "url": "https://staging-api.novarafertility.com/api/health-check",
     "icon": "https://icons.duckduckgo.com/ip3/staging-api.novarafertility.com.ico",
     "slug": "staging-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 194,
-    "timeDay": 194,
-    "timeWeek": 202,
-    "timeMonth": 199,
-    "timeYear": 194,
+    "time": 192,
+    "timeDay": 177,
+    "timeWeek": 196,
+    "timeMonth": 197,
+    "timeYear": 192,
     "dailyMinutesDown": {}
   },
   {
@@ -49,7 +49,7 @@
     "time": 163,
     "timeDay": 148,
     "timeWeek": 153,
-    "timeMonth": 157,
+    "timeMonth": 158,
     "timeYear": 163,
     "dailyMinutesDown": {}
   }
