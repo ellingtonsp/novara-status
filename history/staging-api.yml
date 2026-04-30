@@ -1,7 +1,7 @@
 url: https://staging-api.novarafertility.com/api/health-check
-status: up
-code: 200
-responseTime: 177
-lastUpdated: 2026-04-30T12:03:04.257Z
+status: down
+code: 503
+responseTime: 149
+lastUpdated: 2026-04-30T23:22:14.298Z
 startTime: 2026-03-26T14:50:52.358Z
 generator: Upptime <https://github.com/upptime/upptime>
